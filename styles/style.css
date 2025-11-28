@@ -289,7 +289,6 @@
 
 .main__gallery-image {
   display: flex;
-  margin-block-start: 10px;
 }
 
 .main__gallery-image-item {
@@ -364,9 +363,17 @@
     margin-left: 0;
   }
 
+  .main {
+    padding-block-start: 40px;
+  }
+
   .main__section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+  }
+
+  .main__section:not(:first-child) {
+    margin-block-start: 50px;
   }
 
   .main__section-title {
@@ -383,9 +390,9 @@
 
   .main__gallery {
     display: initial;
+    grid-column: initial;
     margin-block-start: 0;
     aspect-ratio: initial;
-    grid-column: initial;
   }
 
   #gallery .main__section-subtitle {
