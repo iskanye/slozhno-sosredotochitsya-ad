@@ -1,6 +1,6 @@
 :root.theme-light {
   --text-button: #353430;
-  --button-border: #353430;
+  --button-border: 53, 52, 48;
 
   --text-logo: #ffc2e6;
   --shadow-logo: #ff8dcb;
@@ -26,7 +26,7 @@
 
   :root {
     --text-button: #353430;
-    --button-border: #353430;
+    --button-border: 53, 52, 48;
 
     --text-logo: #ffc2e6;
     --shadow-logo: #ff8dcb;

@@ -1,6 +1,6 @@
 :root.theme-dark {
   --text-button: #ff0070;
-  --button-border: #ff0070;
+  --button-border: 255, 0, 112;
 
   --text-logo: #db00ff;
   --shadow-logo: #ff0070;

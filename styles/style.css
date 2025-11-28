@@ -189,8 +189,6 @@
 }
 
 .main__section-title {
-  position: sticky;
-  top: var(--padding);
   align-self: flex-start;
   margin-block-end: 20px;
   color: var(--text-accent);
@@ -257,10 +255,6 @@
 }
 
 /* Разделы */
-
-#distractions .main__section-title {
-  position: initial;
-}
 
 #distractions .main__section-list {
   display: grid;
@@ -390,6 +384,8 @@
   .main__gallery {
     display: initial;
     margin-block-start: 0;
+    aspect-ratio: initial;
+    grid-column: initial;
   }
 
   #gallery .main__section-subtitle {
